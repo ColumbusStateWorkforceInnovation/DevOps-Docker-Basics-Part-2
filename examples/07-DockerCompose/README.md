@@ -1,4 +1,4 @@
-# Docker Compose
+# Docker Compose (Optional content, will not be used in labs)
 
 Docker Compose lets you run a suite of containers with specified configurations, all interconnected.
 
