@@ -24,8 +24,8 @@ This is an alternate world!
 Note that it has instead displayed the contents of [other-content/hello.txt](other-content/hello.txt)!
 
 As a bit of an aside, let's see how permissions work between the container and the host.  To do 
-so, mark the [private-contents/hello.txt](private-content/hello.txt) file so that only you have
-access to the file: `chmod 700 private-contents/hello.txt`
+so, mark the [private-content/hello.txt](private-content/hello.txt) file so that only you have
+access to the file: `chmod 700 private-content/hello.txt`
 
 Recall that the [Dockerfile](../02-Dockerfile-commands/Dockerfile) for example 2 specified that
 the docker should run as the `cscc` user.  If that's the case, and if docker can correctly figure
