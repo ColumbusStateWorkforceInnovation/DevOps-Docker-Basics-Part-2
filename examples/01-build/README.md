@@ -2,7 +2,7 @@
 
 It's time to try building our own docker images.  Let's start with a simple build using a basic [Dockerfile](Dockerfile).  Review the [Dockerfile](Dockerfile), then review the [build.sh](build.sh) build script.  Finally, run the [build.sh](build.sh) in your terminal window (in this directory).
 
-* You may need to use chmod +x build.sh to make the script executable *
+**You may need to use chmod +x build.sh to make the script executable**
 
 ```
 [jschmersal1@WFIL011 01-build]$ ./build.sh 
