@@ -20,7 +20,7 @@ function cleanup {
   [[ -n $container ]] && docker rm -f $container 2>>err.log
 }
 
-debug "cleaning up"
+echo "cleaning up - ignore messages about 'no such image'"
 cleanup $CONTAINER_NAME
 docker rmi cscc-httpd:0.0.1
 
