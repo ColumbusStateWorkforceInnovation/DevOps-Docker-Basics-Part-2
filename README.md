@@ -1,4 +1,4 @@
-# Docker Fundamentals, part 2
+# Docker Basics, Part 2
 
 # Homework instructions
 For this homework, you will become more familiar with building docker images and using docker volumes and networks which were introduced in class and in the [examples](examples/).
