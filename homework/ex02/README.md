@@ -15,3 +15,5 @@ _Hint_: Read through the [httpd docker image](https://hub.docker.com/_/httpd) pa
 
 To verify your answer, you can run `./test.sh`.  If everything works you will see `SUCCESS!!!`
 printed to your terminal.
+
+Note:  You should NOT modify the Dockerfile or /html directory, these are included as a test construct.
