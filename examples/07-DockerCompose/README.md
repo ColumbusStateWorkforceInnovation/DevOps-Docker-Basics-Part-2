@@ -168,7 +168,7 @@ Verify they are gone with `docker ps -a`
 Now that you have the basic webapp working, let's try to improve your composition.  
 Restart your app (`docker-compose up -d`) and go to the homepage again ([http://localhost:8080](http://localhost:8080).  Notice there's a problem here -- the counter reset to 0 when we restarted the application. 
 
-Fix this.  To do so, you will need to mount an external volume to persist the redis data into.  Note from [the redis docker hub page](https://hub.docker.com/_/redis) that redis reads and writes its database data in `/data` inside the contaner.  Also, you can see how to configure volumes in docker compose by reading through the [compose configuration page](https://docs.docker.com/compose/compose-file/#volumes).
+Fix this.  To do so, you will need to mount an external volume to persist the redis data into.  Note from [the redis docker hub page](https://hub.docker.com/_/redis) that redis reads and writes its database data in `/data` inside the container.  Also, you can see how to configure volumes in docker compose by reading through the [compose configuration page](https://docs.docker.com/compose/compose-file/#volumes).
 
 Test your fix by running `docker-compose down` and then `docker-compose up -d` a few times.  
 
